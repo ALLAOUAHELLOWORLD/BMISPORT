@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="MONPREMIERPROJET.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Calistoga&family=Righteous&family=Titan+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <h1 class="welcome">
+              BIENVENU AU BODY MASS INDEX
+        </h1>
+        <div id="hello">
+            <h1 style="color:rgb(0, 0, 0)" class="one">BMI CALC</h1>
+            <p class="one">VOTRE POINDS :</p>
+            <input id="compteur"
+            type="number"
+            step="1"
+            ><br>
+            <span id="unite2">Kg</span>
+            <p class="one">VOTRE Mesure:</p>
+             <input id="compteur2"
+            type="number"
+            step="1"
+            >
+            <span id="unite">cm</span>
+            <button id="leclick">CALCULE</button>
+        </div>
+        <div class="result">
+            <p style="color: rgb(0, 0, 0);">Le Resultat est :</p>
+            <p id="natija"></p>
+        </div>
+        <div class="gender">
+            <label><input type="radio" name = "justone" id="homme" value="homme">HOMME</label>
+            <label><input type="radio" name="justone" id="femme" value="femme">FEMME</label>
+        </div>
+        <div class="container">
+        <div class="slider" id="slider">
+        <div class="slide homme"></div>
+        </div>
+        <div class ="container" >
+        <div class="slider2" id="slider2">
+        <div class="slide femme"></div>
+            </div>
+        </div>
+</div>
+<div>
+            <button id="reload">RECALCULER</button>
+</div>
+        </div>
+    <div id="cle">
+        <h2 style="color: rgb(0, 0, 0);">LA CLE</h2>
+        <div id="couleurs">
+        <div id="vert">
+            <p>Normal</p>
+        </div>
+        <div id="orange">
+            <p>surpoid</p>
+        </div>
+        <div id="rose">
+        <p>obisite</p></div>
+        <div id="red">
+            <p>danger</p>
+        </div>
+    </div>
+    </div>
+        <script src="MONPREMIEREPROJET.js"></script>
+    </body>
+</html>

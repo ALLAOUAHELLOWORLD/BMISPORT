@@ -1,0 +1,187 @@
+#hello{
+    border: 1cm;
+    color: black;
+    background: rgb(245, 245, 245);
+    padding-bottom: 50mm;
+    height: 015%;
+    width: 25%;
+    border-radius: 1cm;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left :40%;
+}
+#compteur{
+    background-color: rgb(255, 255, 255);
+    border: 1cm;
+    border-radius: 1cm;
+    height: 1cm;
+    width: 5cm;
+}
+#compteur2{
+    background-color: rgb(255, 255, 255);
+    border: 1cm;
+    border-radius: 1cm;
+    height: 1cm;
+    width: 5cm;
+    position: absolute;
+    top:70%;
+    left:21%;
+
+}
+#leclick{
+    border-radius: 1cm;
+    position: relative;
+    top: 1cm;
+    text-align: center;
+    align-items: center;
+    height: 1cm;
+    width: 3cm;
+    font-size: 20px;
+    font-family: Titan one;
+
+}
+.welcome{
+    position: absolute;
+    left : 400px;
+    color: rgb(255, 255, 255);
+    font-family: Titan one;
+    border: 12px;
+    border-color: red;
+}
+.result{
+    background-color: rgb(255, 255, 255);
+    width: 5cm;
+    height: 2cm;
+    position: relative;
+    top: 13cm;
+    left: 45%;
+    border-radius: 1cm;
+    text-align: center;
+    font-size: 19px;
+    font-family:Titan one;
+    padding-top: 1px;
+}
+body{
+    background-color: black;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: -400px -50px;
+    background-size: 100%;
+}
+.one{
+    font-family: Titan one;
+}
+.gender{
+    background-color: white;
+    width: 15%;
+    height: 5%;
+    border-radius: 1cm;
+    position: absolute;
+    left: 45%;
+}
+.slider, .slider2 {
+  display: absolute;
+  width: 200%;              /* 2 slides */
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.slide {
+    width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+}
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1000%;
+  height: 100vh;
+  z-index: -1;    
+  background-size: contain;
+}
+.homme {
+  background-image: url("man.png");
+  background-size: 1000px 1000px;
+  background-position: 1300px -40px;
+  background-repeat: no-repeat;
+border: 1cm;
+  box-shadow: -5px 0px white;
+}
+
+.femme {
+  background-image: url("woman.png");
+   background-size: 700px 700px;
+   background-position: 1300px center;
+  background-repeat: no-repeat;
+  border: 1cm;
+  box-shadow: -5px 0px white;
+}
+#unite{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 30%;
+    top: 73%;
+    font-size: smaller;
+}
+#unite2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 30%;
+    top: 44%;
+    font-size: small;
+}
+#reload{
+    border-radius: 3cm;
+    font-family: titan one;
+    position: relative;
+    top: 10vh;
+    left: 48%;
+    background-color: white;
+}
+#natija{
+    position: relative;
+    top: -19px;
+    color: rgb(0, 0, 0);
+}
+#cle{
+    background-color: rgb(255, 255, 255);
+    width: 1.5cm;
+    height: 5cm;
+    font-family: titan one;
+    font-size: 12px;
+    border: 1cm;
+    border-radius: 0.5cm;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    top: 46%;
+}
+#couleurs{
+    text-align: right;
+    position: relative;
+    right: 1mm;
+}
+#vert{
+    background-color: green;
+    width: 14mm;
+    border-radius: 0.5cm;
+}
+#rose{
+    background-color: rgb(255, 0, 76);
+    width: 14mm;
+    border-radius: 0.5cm;
+}
+#orange{
+    background-color: rgb(255, 102, 0);
+    width: 14mm;
+    border-radius: 0.5cm;
+}
+#red{
+    background-color: rgb(255, 0, 0);
+    width: 14mm;
+    border-radius: 0.5cm;
+}
